@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TT Socio Downloader</title>
+
+  <meta name="description"
+        content="TT Socio Downloader - Download public TikTok videos quickly and easily.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      TT Socio <span>Downloader</span>
+    </div>
+
+    <a href="#how">How it works</a>
+  </header>
+
+
+  <main>
+
+    <section class="hero">
+
+      <div class="badge">
+        ⚡ Fast • Simple • Mobile Friendly
+      </div>
+
+      <h1>
+        TikTok Video Downloader
+      </h1>
+
+      <p class="subtitle">
+        Paste a public TikTok video link and get started in seconds.
+      </p>
+
+
+      <div class="download-box">
+
+        <label for="videoUrl">
+          TikTok Video URL
+        </label>
+
+        <div class="input-area">
+
+          <input
+            type="url"
+            id="videoUrl"
+            placeholder="Paste TikTok video link..."
+          >
+
+          <button onclick="downloadVideo()">
+            Download
+          </button>
+
+        </div>
+
+
+        <button class="paste-btn" onclick="pasteLink()">
+          📋 Paste Link
+        </button>
+
+
+        <p id="message"></p>
+
+      </div>
+
+
+      <p class="notice">
+        Download only public content that you have permission to use.
+      </p>
+
+    </section>
+
+
+
+    <section class="features">
+
+      <div class="feature">
+        <div class="icon">⚡</div>
+
+        <h2>Fast</h2>
+
+        <p>
+          Simple interface designed for quick downloads.
+        </p>
+      </div>
+
+
+      <div class="feature">
+        <div class="icon">📱</div>
+
+        <h2>Mobile Friendly</h2>
+
+        <p>
+          Optimized for Android, iPhone and desktop browsers.
+        </p>
+      </div>
+
+
+      <div class="feature">
+        <div class="icon">🔗</div>
+
+        <h2>Easy to Use</h2>
+
+        <p>
+          Copy the video link, paste it and continue.
+        </p>
+      </div>
+
+    </section>
+
+
+
+    <section id="how" class="how">
+
+      <h2>
+        How It Works
+      </h2>
+
+
+      <div class="steps">
+
+        <div class="step">
+          <strong>1</strong>
+          <span>Copy a public TikTok video link.</span>
+        </div>
+
+
+        <div class="step">
+          <strong>2</strong>
+          <span>Paste the link into TT Socio Downloader.</span>
+        </div>
+
+
+        <div class="step">
+          <strong>3</strong>
+          <span>Click Download.</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="about">
+
+      <h2>
+        TT Socio Downloader
+      </h2>
+
+      <p>
+        A simple online tool for processing publicly accessible
+        TikTok video links. More supported platforms may be added
+        in future versions.
+      </p>
+
+    </section>
+
+  </main>
+
+
+
+  <footer>
+
+    <p>
+      © 2026 TT Socio Downloader
+    </p>
+
+    <p>
+      Use content responsibly and respect copyright and platform rules.
+    </p>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
